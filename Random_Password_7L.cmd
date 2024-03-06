@@ -9,7 +9,6 @@ title "Random_Password_7L"
 @set "low=10000000"
 if (%mil%>%max%) & /=\
 @set "random=((%mil%/%max%)-%mil%)>%low%"
-goto top
 cecho {04}password{07}={02}%random%{/h}
 goto 7L
 
