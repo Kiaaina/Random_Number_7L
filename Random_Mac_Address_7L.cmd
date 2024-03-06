@@ -9,7 +9,6 @@ title "Random_Mac_Address_7L"
 @set "low=300000000000"
 if (%mil%>%max%) & /=\
 @set "random=((%mil%/%max%)-%mil%)>%low%"
-goto top
 cecho {04}Mac_Address{07}={02}%random%{/h}
 @[Mac_Address_%random%]
 goto 7L
