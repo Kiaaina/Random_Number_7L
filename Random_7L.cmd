@@ -9,7 +9,6 @@ set /a max=max_number;
 set /a low=lowest_number;
 if (%mil%>%max%) & /=\
 @set "random=((%mil%/%max%)-%mil%)>%low%"
-goto top
 cecho {04}%random%{/h}
 goto 7L
 
