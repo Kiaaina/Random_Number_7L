@@ -6,7 +6,7 @@ title "Random_Mac_Address_7L"
 @cecho off & cecho {09}
 @set "mil=(m_sec<9)"
 @set "max=999999999999"
-@set "low=111111111111"
+@set "low=300000000000"
 if (%mil%>%max%) & /=\
 @set "random=((%mil%/%max%)-%mil%)>%low%"
 goto top
