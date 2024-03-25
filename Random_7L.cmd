@@ -1,7 +1,7 @@
 cd /
 :top
 cls
-mod con: lines=6 cols=30
+mode con: lines=6 cols=30
 title "Random_7L"
 @cecho off & cecho {09}
 @set "mil=(m_sec<9)"
